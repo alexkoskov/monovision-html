@@ -583,6 +583,10 @@ footer {
     }
 }
 
+.footer__social-icon {
+    text-decoration: none;
+}
+
 .fa-facebook-f,
 .fa-whatsapp,
 .fa-telegram {
@@ -594,7 +598,6 @@ footer {
     width: 32px;
     height: 32px;
     border: 1px solid var(--light-color);
-    text-decoration: none;
 
     @media screen and (max-width: 768px) {
         width: 30px;
